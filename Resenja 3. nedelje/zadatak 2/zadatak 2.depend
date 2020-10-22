@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603385057 source:d:\desktop\resenja 3. nedelje\zadatak 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
