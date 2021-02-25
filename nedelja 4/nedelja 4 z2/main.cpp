@@ -51,12 +51,12 @@ public:
     }
 };
 class automobil{
-private:
+public:
    Menjac Men;
    Skoljka Sko;
    stanje_auta stanje;
    int brzina;
-public:
+
     automobil(){
     Men = Menjac();
     Sko = Skoljka();
@@ -156,12 +156,12 @@ public:
 
 int main()
 {
-    automobil auto1();
+    automobil auto1;
     auto1.ispisi();
-    automobil auto2(automatski,5,crvena);
-    auto2.upali;
+    automobil auto2(manuelni,5,crvena);
     auto2.ispisi();
     automobil auto3(auto1);
+    auto3.upali();
     auto3.povecajBrzinu();
     auto3.ispisi();
 
