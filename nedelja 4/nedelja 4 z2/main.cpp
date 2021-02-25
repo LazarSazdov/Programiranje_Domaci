@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-enum tip_menjaca {manuelni=1, automatski};
+enum tip_menjaca {manuelni=0, automatski};
 enum boja_skoljke {plava = 1,crvena,zelena};
 enum stanje_auta {POKVAREN, U_VOZNJI, UGASEN};
 class Menjac{
